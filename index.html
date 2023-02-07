@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MB Bank</title>
+</head>
+
+<body>
+    <h1><i>Đăng Ký Tài Khoản </i></h1> 
+
+<form action="{{ url_for('profile')}}" method="get">
+
+    <table>
+        <tr>
+            <td>Tên đăng ký : </td>
+            <td>
+                <h2><input type="text" placeholder="Họ và Tên" name="Name" required></h2>   
+            </td>
+        </tr>
+
+        <tr>
+            <td>Tạo mật khẩu : </td>
+            <td>
+                <h2><input type="password" placeholder="Mật khẩu" name="password" required></h2>   
+            </td>
+        </tr>
+
+ 
+    </table> 
+    <h2><button style="color:brown">Xác nhận đăng ký</button></h2>
+
+</form>
+ 
+
+
+</body>
+
+
+
+
+</html>
